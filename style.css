@@ -39,13 +39,13 @@ body {
 }
 
 .hamburger-menu:has(input:checked)::before {
-  rotate: 45deg;
+  rotate: 40deg;
   width: 30px;
   background-color: #ffffff;
 }
 
 .hamburger-menu:has(input:checked)::after {
-  rotate: -45deg;
+  rotate: -40deg;
   width: 30px;
   background-color: #ffffff;
 }
